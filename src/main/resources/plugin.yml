@@ -1,0 +1,25 @@
+name: AlwaysDay
+version: '${project.version}'
+main: me.matthewstevens.alwaysday.AlwaysDay
+api-version: 1.19
+author: Mrzeapple
+commands:
+  adreload:
+    description: Reload the config
+  adadd:
+    description: Add player to selected player list
+  adremove:
+    description: Removes player from selected player list
+  adworld:
+    description: Change the world that is effected
+  adweather:
+    description: Toggles if the weather will change or not
+  adtime:
+    description: Toggles if the Time will change or not
+  adanyone:
+    description: Toggles if plugin watches for specific people or anyone being online
+  adweathertype:
+    description: Change what type of weather you would like to keep
+  adtimechange:
+    description: Changes the time you want to change to or from
+    usage: "Example: /adtimechange [max | min] <Time>"

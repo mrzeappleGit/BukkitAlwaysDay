@@ -1,0 +1,10 @@
+world-name: 'world'
+time-controlled: true
+time-to-change: 10000
+time-to-set: 0
+when-anyone-is-online: true
+list-of-players:
+  - 'player1'
+  - 'player2'
+weather-controlled: true
+weather-type: "clear"
